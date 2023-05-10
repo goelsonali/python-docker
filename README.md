@@ -28,12 +28,16 @@ we would pass 3000:5000 to the --publish flag.
 docker run --publish 8000:5000 python-docker
 
 To check if the port exposed and app is acessible use below command on separate terminal
+
 command: curl localhost:8000 
+
 output : Hello, Docker!%
 
 # To run in detached mode
 Basically the webserver should run in the background (-d is the option to run in detached mode)
+
 commad : docker run -d -p 8000:5000 python-docker
+
 output : <Container_Id> returned on the terminal
 
 # Other helpful commands
