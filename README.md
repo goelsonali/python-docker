@@ -38,9 +38,13 @@ output : <Container_Id> returned on the terminal
 
 # Other helpful commands
 a. To list all running containers - docker ps
+
 b. To stop the container - docker stop <container_name>
+
 c. To list all the running/stopped containers - docker ps -a
+
 d. To restart a stopped container - docker restart <container_name>
+
 e. To remove the containers - docker rm <container_name1> <container_name2> <container_name3>
 
 
